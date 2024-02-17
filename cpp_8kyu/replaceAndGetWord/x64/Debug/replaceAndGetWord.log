@@ -1,0 +1,5 @@
+﻿  replaceAndGetWord.cpp
+F:\programistWork\cpp_Learningcart\workWithLines\replaceAndGetWord\replaceAndGetWord.cpp(122,30): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+F:\programistWork\cpp_Learningcart\workWithLines\replaceAndGetWord\replaceAndGetWord.cpp(127,45): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+F:\programistWork\cpp_Learningcart\workWithLines\replaceAndGetWord\replaceAndGetWord.cpp(151): warning C4715: chooseOperatingOnDynamycArray: значение возвращается не при всех путях выполнения
+  replaceAndGetWord.vcxproj -> F:\programistWork\cpp_Learningcart\workWithLines\replaceAndGetWord\x64\Debug\replaceAndGetWord.exe
