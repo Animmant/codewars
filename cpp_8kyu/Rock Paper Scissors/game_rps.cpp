@@ -10,13 +10,18 @@
 using namespace std;
 
 string rps(const std::string& p1, const std::string& p2){
-    switch(){
-        case 
+    if(&p1){
+        return "Player 1 won!";
     }
     return "d";
 }
 
 int main(){
     string firstPlayer, secondPlayer;
+    cout << "Player 1, enter your choice (rock, paper, scissors): ";
+    cin >> firstPlayer;
+    cout << "Player 2, enter your choice (rock, paper, scissors): ";
+    cin >> secondPlayer;
+
     cout << rps(firstPlayer, secondPlayer) << endl;
 }
