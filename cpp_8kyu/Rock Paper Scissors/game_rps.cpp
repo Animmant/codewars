@@ -12,9 +12,9 @@ std::string rps(const std::string& p1, const std::string& p2){
         (p1 == "paper" && p2 == "rock") ||
         (p1 == "rock" && p2 == "scissors")) {
         return "Player 1 won!";
-    } else {
-        return "Player 2 won!";
     }
+    return "Player 2 won!";
+    
 }
 
 int main(){
