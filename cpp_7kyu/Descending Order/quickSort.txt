@@ -1,0 +1,43 @@
+// Descending
+
+\\ bubleSort
+функція сортувати_за_спаданням(масивЧисел, кількістьЧисел) {
+    для числа i від 0 до кількістьЧисел - 1 {
+        для числа j від 0 до кількістьЧисел - i - 1 {
+            якщо масивЧисел[j] < масивЧисел[j + 1] {
+                тимчасово = масивЧисел[j]
+                масивЧисел[j] = масивЧисел[j + 1]
+                масивЧисел[j + 1] = тимчасово
+            }
+        }
+    }
+}
+
+function quickSort(array, low, high) {
+    if (low < high) {
+        pivotIndex = partition(array, low, high)
+        quickSort(array, low, pivotIndex - 1)
+        quickSort(array, pivotIndex + 1, high)
+    }
+}
+
+function partition(array, low, high) {
+    pivot = array[high]
+    i = low - 1
+    for j from low to high - 1 {
+        if (array[j] < pivot) {
+            i = i + 1
+            swap array[i] with array[j]
+        }
+    }
+    swap array[i + 1] with array[high]
+    return i + 1
+}
+
+function swap(a, b) {
+    temp = a
+    a = b
+    b = temp
+}
+
+
