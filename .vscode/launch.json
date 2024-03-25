@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "f:/programistWork/_forSend/codw/codewars/cpp_6kyu/Multiples_of_3_or_5",
+      "program": "f:/programistWork/_forSend/codw/codewars/cpp_6kyu/Multiples_of_3_or_5/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
