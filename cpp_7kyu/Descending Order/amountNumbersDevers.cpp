@@ -1,4 +1,3 @@
-#include <iostream>
 #include <cinttypes>
 
 uint64_t descendingOrder(uint64_t a) {
@@ -19,6 +18,8 @@ uint64_t descendingOrder(uint64_t a) {
     }
     return result;
 }
+
+#include <iostream>
 
 int main() {
     uint64_t numbers[] = {42145, 145263, 123456789};
