@@ -7,9 +7,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "f:/programistWork/_forSend/codw/codewars/cpp_6kyu/Multiples_of_3_or_5",
-      "program": "f:/programistWork/_forSend/codw/codewars/cpp_6kyu/Multiples_of_3_or_5/build/Debug/outDebug",
+      "externalConsole": false,
+      "cwd": "/workspaces/codewars/cpp_4kyu/Human readable duration format",
+      "program": "/workspaces/codewars/cpp_4kyu/Human readable duration format/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
