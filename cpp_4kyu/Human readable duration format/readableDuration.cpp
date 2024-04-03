@@ -1,24 +1,23 @@
 #include <string>
 
 std::string format_duration(int seconds) {
-    if(seconds){return "now";}
+    if(seconds == 0){return "now";}
 
+    std::string result;
 
-
-    int years = seconds / (365 * 24 * 60 * 60);
-    seconds %= (365 * 24 * 60 * 60);
-    int days = seconds / (24 * 60 * 60);
-    seconds %= (24 * 60 * 60);
-    int hours = seconds / (60 * 60);
-    seconds %= (60 * 60);
-    int minutes = seconds / 60;
-    seconds %= 60;
-
-    std::string sec = std::to_string(seconds % 60) + " second",
-                minute = std::to_string((seconds / 60) % 60) + " minute",
-                hour = std::to_string((seconds / 3600) % 60) + " hour";
+    std::string unit_names[] = { "second", "minute", "hour", "day", "year" };
+     int time_units[] = { 60, 60, 24, 365 };
     
-    switch()
+    int values[5];
+    for(int i = 0; i < 4; i++){
+        values[i] = seconds % time_units[i];
+        seconds /= time_units[i];
+    
+    }
+
+
+  
+    return result;
 
 }
 
