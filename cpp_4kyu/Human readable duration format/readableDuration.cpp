@@ -1,7 +1,7 @@
 #include <string>
 
 std::string format_duration(int seconds) {
-    if(seconds)
+    if(seconds){return "now";}
 
 
 
