@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/workspaces/codewars/cpp_4kyu/Human readable duration format",
-      "program": "/workspaces/codewars/cpp_4kyu/Human readable duration format/build/Debug/outDebug",
+      "cwd": "/workspaces/codewars/cpp_5kyu/Maximum subarray sum",
+      "program": "/workspaces/codewars/cpp_5kyu/Maximum subarray sum/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
